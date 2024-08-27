@@ -107,7 +107,7 @@ form button {
 
 .todo-list {
     min-width: 25%;
-
+color: white !important;
     /* To remove the bullets of unordered list */
     list-style: none;
 }
