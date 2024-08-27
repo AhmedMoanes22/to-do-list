@@ -114,14 +114,15 @@ form button {
 .todo-list {
     width: 50%;
 margin-bottom: 3%;
+color: white !important;
+background-color: black !important;
     /* To remove the bullets of unordered list */
     list-style: none;
 }
 
 .todo {
     margin: 1rem;
-    /* background: rgb(247, 226, 223); */
-    /* color: black; */
+   
     font-size: 19px;
     display: flex;
     justify-content: space-between;
@@ -133,7 +134,8 @@ margin-bottom: 3%;
 
 /* Items themes */
 .standard-todo {
-    background-color: #bdbdbd !important;
+    background-color: white !important;
+    /* color: white; */
 }
 
 
