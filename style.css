@@ -15,15 +15,10 @@ body {
 background-image: url(/pic/wallpaperflare.com_wallpaper.jpg);
 background-size: cover;
 }
-section{
-    width: 26%;
-margin-right: 7%;
-    border: 5px solid black;
-    box-shadow: #bdbdbd 0px 0px 17px;
-}
+
 /* Body light or darker themes */
 h1 {
-color: rgb(173 173 173);
+color: red;
 }
 
 
@@ -108,21 +103,19 @@ form button {
     justify-content: center;
     align-items: center;
     max-width: 1200px;
-    margin-left: 3%;
 }
 
 .todo-list {
-    width: 50%;
-margin-bottom: 3%;
-color: white !important;
-background-color: black !important;
+    min-width: 25%;
+
     /* To remove the bullets of unordered list */
     list-style: none;
 }
 
 .todo {
     margin: 1rem;
-   
+    /* background: rgb(247, 226, 223); */
+    /* color: black; */
     font-size: 19px;
     display: flex;
     justify-content: space-between;
@@ -134,8 +127,7 @@ background-color: black !important;
 
 /* Items themes */
 .standard-todo {
-    background-color: white !important;
-    /* color: white; */
+    background-color: rgb(212, 212, 212);
 }
 
 
